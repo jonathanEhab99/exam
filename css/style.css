@@ -1,0 +1,57 @@
+.wrapper {
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .myp {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+.pic{
+    width: 50px;
+}
+.pointer{
+    cursor: pointer;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.7) !important;
+    }
+.overlay{
+    left: 0px;
+    right: 0px;
+    bottom: -200px;
+    transition: 0.5s all;
+    background-color: rgba(255, 255, 255,0.7);
+    height: 100%;
+}
+
+.sidebar1{
+    z-index: 10000;
+}
+
+.sidebar2{
+    z-index: 10000;
+}
+.category:hover .overlay{
+    bottom: 0px;
+}
+.contact-us input::placeholder{
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.overlay1{
+    left: 0px;
+    right: 0px;
+    bottom: -400px;
+    transition: 0.5s all;
+    background-color: rgba(255, 255, 255,0.7);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category:hover .overlay1{
+    bottom: 0px;
+}
